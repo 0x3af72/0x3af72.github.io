@@ -13,7 +13,7 @@ description: The easiest web exploitation challenge on LINECTF 2025
 
 There was a lot of code to analyze in this challenge. Although there was an admin bot, this wasn't an XSS challenge. Instead, the admin bot creates a post that contains the flag in it.
 
-`username` is an value which we control.
+`username` is a value which we control.
 
 ```js
 await page.goto(process.env.SERVER_URL + '/?user=' + username)
